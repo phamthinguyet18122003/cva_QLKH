@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DuAn1_QLKhoHang" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+         <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="Theme.DuAn1_QLKhoHang" parent="Base.Theme.DuAn1_QLKhoHang" />
+    <style name="theme_CardView" parent="Theme.MaterialComponents.DayNight.NoActionBar"></style>
+</resources>

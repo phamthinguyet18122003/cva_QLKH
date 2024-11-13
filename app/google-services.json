@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "11315487081",
+    "firebase_url": "https://codeapp-baf31-default-rtdb.firebaseio.com",
+    "project_id": "codeapp-baf31",
+    "storage_bucket": "codeapp-baf31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11315487081:android:6d996d9c6dcb81b9f7ddf8",
+        "android_client_info": {
+          "package_name": "com.longthph30891.duan1_qlkhohang"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiUV8BMHlqao2y7OOlfDsJOxb8tYhR4N8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

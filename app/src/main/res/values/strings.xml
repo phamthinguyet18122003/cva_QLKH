@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DuAn1_QLKhoHang</string>
+    <string name="close">Close nav</string>
+    <string name="open">Open nav</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="id">ID :</string>
+    <string name="invoicer">Invoicer :</string>
+    <string name="note">Note :</string>
+    <string name="bill_management">Bill management</string>
+    <string name="s_n_ph_m_tr_ng">Sản phẩm trống</string>
+    <string name="l_u">Lưu</string>
+    <string name="ghi_ch">Ghi chú :</string>
+    <string name="xu_t_kho">Xuất Kho</string>
+    <string name="nh_p_kho">Nhập Kho</string>
+    <string name="_0_s_n_ph_m">0 sản phẩm</string>
+    <string name="t_ng_ti_n">Tổng tiền :</string>
+    <string name="ch_n_s_n_ph_m">Chọn sản phẩm</string>
+    <string name="t_o_h_a_n">TẠO HÓA ĐƠN</string>
+    <string name="inventory">Inventory statistics</string>
+    <string name="stock_out">Stock out statistics</string>
+    <string name="tu_ngay">Từ ngày</string>
+    <string name="den_ngay">Đến ngày</string>
+    <string name="chon_ngay">Chọn ngày</string>
+    <string name="hint_ngay">dd/MM/yyyy</string>
+</resources>

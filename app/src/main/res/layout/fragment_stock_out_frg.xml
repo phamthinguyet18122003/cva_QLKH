@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.activitiesManagementScreen.StockOutActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_stock_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FA44898D"
+        app:title="Thông Kê Hàng Bán"
+        app:titleTextColor="#331139" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/tu_ngay"
+                android:textSize="17dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/ed_tuNgay"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:hint="@string/hint_ngay" />
+
+                <Button
+                    android:id="@+id/btn_chonTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FA44898D"
+                    android:text="@string/chon_ngay" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/den_ngay"
+                android:textSize="17dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/ed_denNgay"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:hint="@string/hint_ngay" />
+
+                <Button
+                    android:id="@+id/btn_chonDN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FA44898D"
+                    android:text="@string/chon_ngay" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnTimKiem"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#FA44898D"
+                android:text="Tìm kiếm" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcv_StockOut"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="90dp"
+            android:padding="10dp" />
+
+</LinearLayout>

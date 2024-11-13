@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/b612_mono_bold_italic</item>
+        <item>@font/indie_flower</item>
+        <item>@font/sen</item>
+
+    </array>
+</resources>
